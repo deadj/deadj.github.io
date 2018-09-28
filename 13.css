@@ -9,6 +9,14 @@ body, html {
 @font-face {
   font-family: 'Lato';
   font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: 300;
   src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
@@ -23,13 +31,12 @@ body, html {
 }
 
 .slider > h1 {
-	font-weight: normal;
+	font-weight: 300;
 }
 
 .slider > b {
 	font-weight: 900;
 }
-
 
 .header {
 	display: block;
@@ -145,19 +152,22 @@ body, html {
 
 .serveicesBlock {
 	display: inline-block;
-	width: 235px;
+	width: 260px;
 	min-width: 135px;
 	color: #616161;
 	margin-right: 20px;
 	margin-left: 20px;
 }
 
-.serveicesBlock > h1 {
+.serveicesBlock > h3 {
 	font-size: 18px;
+	margin-bottom: 0px;
 }
 
 .serveicesBlock > p {
 	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.7;
 }
 
 .serveicesBlock > .img {
@@ -203,6 +213,7 @@ body, html {
 	color: #616161;
 	text-align: center;
 	font-size: 20px;
+	font-weight: 300;
 }
 
 .tabbed {
@@ -225,7 +236,7 @@ body, html {
 	position: relative;
 	transition: 0.3s;
 	margin-left: -25px;
-	font-weight: bold;
+	font-weight: 900;
 }
 
 .tabbed > label:hover {
@@ -316,6 +327,10 @@ body, html {
 	padding-bottom: 10px;
 	color: #BEBEBE;
 	text-align: center;
+}
+
+.footer > p {
+	font-weight: 300;
 }
 
 .footerLink {
